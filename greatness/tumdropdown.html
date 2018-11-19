@@ -1,0 +1,62 @@
+<html>
+<title>tum dropdown</title>
+<head>
+<style>
+    
+    *{margin: 0px; padding: 0px;}
+    #container ul{list-style: none;}   
+    #container ul li{background-color: blue; width: 150px; text-align: center; border: 1px white solid; height: 50px; line-height: 50px; float: left; color: white; font-size: 18px; position: relative;}
+    #container ul li:hover{background-color: green;}
+    #container ul ul{display: none;}
+    #container ul li:hover > ul{display: block;}
+    #container ul ul ul{margin-left: 150px; top: 0px; position: absolute; }
+    
+</style>
+<head>
+<body>
+    <div id="container">
+        <ul>
+            <li>Home
+            <ul>
+                <li>About</li>
+                <li>Students Life</li>
+                <li>Departments
+                <li>Contact</li>
+                </ul>
+            </li>
+            <li>About
+            <ul>
+                <li>Location</li>
+                <li>Vision</li>
+                <li>Mission</li>
+                <li>Motto</li>
+                </ul></li>
+            </li>
+            <li>Student Life</li>
+            <li>Departments
+            <ul>
+                    <li>Business</li>
+                    <li>I.C.I
+                        <ul>
+                            <li>BSIT</li>
+                            <li>BTIT GROUP A</li>
+                            <li>BTIT GROUP B</li>
+                        </ul>
+                </li>
+                    <li>Engineering</li>
+                    <li>Applied Sciences
+                <ul>
+                            <li>Applied Chem</li>
+                            <li>Applied Phyc</li>
+                            <li>Applied Bio</li>
+                        </ul>
+                </li>
+                    </ul>
+                </li></li>
+            <li>Contact</li>
+        </ul>
+    </div>
+    
+    
+</body>
+</html>
